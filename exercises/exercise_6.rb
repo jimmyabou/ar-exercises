@@ -8,4 +8,7 @@ require_relative './exercise_5'
 puts "Exercise 6"
 puts "----------"
 
-# Your code goes here ...
+@store1.employees.create(first_name: "jam", last_name: "jim", hourly_rate: 11)
+@store1.employees.create(first_name: "jamie", last_name: "b", hourly_rate: 44)
+@store2.employees.create(first_name: "I", last_name: "was", hourly_rate: 22)
+@store2.employees.create(first_name: "me", last_name: "am", hourly_rate: 33)
